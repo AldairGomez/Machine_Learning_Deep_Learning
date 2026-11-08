@@ -1,0 +1,2 @@
+{names: ['Casco', 'Mascarilla', 'SIN-Casco', 'SIN-Mascarilla', 'SIN-Chaleco', 'Persona', 'Cono_de_seguridad', 'Chaleco', 'maquinaria', 'vehiculo'], nc: 10, test: /kaggle/input/construction-site-safety-image-dataset-roboflow/test,
+  train: /kaggle/input/construction-site-safety-image-dataset-roboflow/train, val: /kaggle/input/construction-site-safety-image-dataset-roboflow/valid}

@@ -1,0 +1,21 @@
+# ========================================================
+# Dependencias del Proyecto SENATI - Detección de EPPs
+# ========================================================
+
+# Visión por Computadora y Deep Learning
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Procesamiento de Datos y Álgebra Numérica
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning Clásico (Regresión, K-Means, KNN, SVM)
+scikit-learn>=1.3.0
+
+# Visualización Gráfica y Gráficas de Rendimiento
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Soporte para ejecución en Jupyter Notebook
+ipykernel>=6.0.0
