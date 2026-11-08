@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ### Opción A: Interfaz Gráfica de Usuario (Recomendado)
 Para abrir la interfaz interactiva con botones para imágenes, videos y cámara en vivo:
 ```powershell
-python interfaz.py
+python main.py
 ```
 
 #### Funcionalidades de la Interfaz:
@@ -112,16 +112,11 @@ Machine_Learning_Deep_Learning/
 ├── imagenes prueba/              # 4 fotografías de prueba (img1, img2, img3, img4)
 ├── video prueba/                 # 2 videos de prueba de obra (vid1.mp4, vid2.mp4)
 │
-├── interfaz.py                   # Interfaz gráfica principal (Tkinter + OpenCV)
 ├── main.py                       # Script secundario de ejecución por consola
 ├── Entregable_SENATI_EPP.ipynb   # Cuaderno Jupyter con todas las evidencias de SENATI
 │
-├── diagrama_1_despliegue.png      # Plano 1: Despliegue físico y periféricos (300 DPI)
-├── diagrama_2_flujo_operativo.png # Plano 2: Flujo operativo y lógica SSOMA (300 DPI)
-├── diagrama_propuesta.html       # Diagrama interactivo en HTML/CSS
 │
 ├── requirements.txt              # Lista de librerías para replicar el entorno
-├── .gitignore                    # Archivos y carpetas excluidos del repositorio Git
 └── README.md                     # Guía de instalación y manual del proyecto
 ```
 
