@@ -2,9 +2,9 @@
 
 Sistema de **Visión Artificial y Deep Learning** desarrollado con **YOLOv8** y **OpenCV** para el monitoreo y prevención de riesgos laborales en obras de construcción. El sistema detecta en tiempo real si los trabajadores portan sus Equipos de Protección Personal obligatorios:
 
-* ✅ **Casco de seguridad** (e infracción: `SIN-Casco`)
-* ✅ **Chaleco reflectante** (e infracción: `SIN-Chaleco`)
-* ✅ **Mascarilla** (e infracción: `SIN-Mascarilla`)
+* ✅ **Casco de seguridad** (e infracción: `Sin-Casco`)
+* ✅ **Chaleco reflectante** (e infracción: `Sin-Chaleco`)
+* ✅ **Mascarilla** (e infracción: `Sin-Mascarilla`)
 * ✅ **Persona, Maquinaria, Vehículos y Conos de seguridad**
 
 ---
@@ -86,17 +86,8 @@ jupyter notebook
   4. Algoritmo K-Means Clustering (agrupamiento de tamaños de EPPs para Anchor Boxes).
   5. Comparativa de exactitud entre algoritmos supervisados (KNN vs. SVM vs. CNN).
   6. Métricas de evaluación de 100 épocas de entrenamiento: Precisión (90%), Recall (73%), F1-Score (80.7%), mAP@50 (80.9%) y Matriz de Confusión.
-  7. Detección visual sobre imágenes de obra con etiquetas traducidas al español.
-  8. Respuestas fundamentadas a las 5 Preguntas Guías del documento de SENATI.
+  7. Detección visual sobre imágenes de EPPs
 
----
-
-## 📊 Diagramas y Planos de Ingeniería Incluidos
-
-El proyecto incluye los diagramas en alta resolución (300 DPI) con el cajetín oficial de SENATI:
-* **`diagrama_1_despliegue.png`:** Diagrama de despliegue físico y topología de periféricos (red local Wi-Fi, smartphone con IP Webcam, router, laptop y Kaggle GPU).
-* **`diagrama_2_flujo_operativo.png`:** Diagrama de flujo operativo y lógica de decisiones con alertas visuales de seguridad (cajas rojas para infracciones, cajas verdes para EPP conforme).
-* **`diagrama_propuesta.html`:** Versión web interactiva del plano para exposiciones y presentaciones.
 
 ---
 
